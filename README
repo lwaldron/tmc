@@ -1,1 +1,17 @@
-"translational models for cancers"
+
+Translational Models for Cancers
+
+General purpose is to model translational control exerted on 
+gene expression in the NCI60 panel. Translational control is
+expected to uncouple mRNA values from protein values.  
+
+'data.rda' includes initial data: 'biomart' has Ensembl Biomart v75 genomic coordinates; 'rna' has the NCI60 RNA processed data.
+'annotation.rda' saves the assignment of genomic coordinates to genes profiles in the NCI60 panel at either mRNA or protein level. 
+'gRanges.rna.rda' saves the genomic ranges for mRNA data; metadata are gene RNA expression values in the NCI60 cell lines 
+
+'annotation.R' returns 'annotation.rda'
+'gRanges.rna.R' returns 'gRanges.rna.rda'
+
+
+
+
